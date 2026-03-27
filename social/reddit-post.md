@@ -48,7 +48,7 @@ Happy to answer questions about the system, the approach, or specific GTM workfl
 
 **First comment:**
 
-GitHub link: [REPO URL]
+GitHub link: https://github.com/shawnla90/gtm-coding-agent
 
 Built with Claude Code. The whole repo was built by a coding agent operating from a structured plan. Meta.
 

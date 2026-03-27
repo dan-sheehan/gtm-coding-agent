@@ -137,7 +137,7 @@ then it builds your workspace.
 **Body:**
 
 ```bash
-git clone [REPO URL]
+git clone https://github.com/shawnla90/gtm-coding-agent.git
 cd gtm-coding-agent
 claude
 > help me set up
@@ -147,7 +147,7 @@ MIT licensed. free forever.
 
 no gatekeeping.
 
-**Footer:** github.com/shawnvillaron/gtm-coding-agent
+**Footer:** github.com/shawnla90/gtm-coding-agent
 
 ---
 

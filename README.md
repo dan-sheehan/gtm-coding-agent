@@ -91,7 +91,7 @@ gtm-coding-agent/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/shawnvillaron/gtm-coding-agent.git
+git clone https://github.com/shawnla90/gtm-coding-agent.git
 cd gtm-coding-agent
 
 # 2. Open in Claude Code

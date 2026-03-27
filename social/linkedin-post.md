@@ -48,7 +48,7 @@ shawn, the gtme alchemist
 
 **First comment:**
 
-GitHub link: [REPO URL]
+GitHub link: https://github.com/shawnla90/gtm-coding-agent
 
 full repo. fork it. make it yours. questions welcome.
 

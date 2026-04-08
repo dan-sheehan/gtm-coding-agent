@@ -4,13 +4,13 @@
 
 ---
 
-**Title:** I replaced most of my GTM tool stack with a coding agent and Python scripts. Open-sourcing the system.
+**Title:** I built a GTM operating system with a coding agent and Python scripts. Open-sourcing it.
 
 **Body:**
 
 I was an SDR who manually built buying committees in Salesforce and sent 200+ cold emails a day. Now I build GTM systems with coding agents.
 
-Over the past year I moved most of my outbound, enrichment, ICP research, and content creation out of SaaS tools and into a structured workspace that an AI coding agent (Claude Code) operates from. The setup is markdown files for context, Python scripts for automation, and SQLite for local data. Total monthly cost dropped from ~$2K to under $200 (mostly API calls).
+Over the past year I've been building a structured workspace that an AI coding agent (Claude Code) operates from. Markdown files for context, Python scripts for automation, SQLite for local data. I still use HubSpot and Instantly. This is not about replacing tools. It's about understanding how things work and being able to build the pieces that don't exist yet.
 
 I packaged the whole system into an open-source starter kit: **GTM Coding Agent Starter Kit**
 

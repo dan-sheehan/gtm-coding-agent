@@ -8,7 +8,7 @@
 
 **Header:** the GTM coding agent starter kit
 
-**Subtext:** replace your $2K/mo tool stack with a coding agent and Python scripts
+**Subtext:** build your GTM operating system with a coding agent and Python scripts
 
 **Visual:** terminal window aesthetic, dark background
 
@@ -16,20 +16,19 @@
 
 ## Slide 2 — The Problem
 
-**Header:** your GTM tool stack is broken
+**Header:** your GTM tools don't talk to each other
 
 **Body:**
 
-CRM: $50-150/mo
-enrichment: $100-300/mo
-sequencing: $100-200/mo
-content tools: $50-200/mo
-analytics: $50-150/mo
-intent data: $200-500/mo
+CRM over here.
+enrichment tool over there.
+sequencing in another tab.
+content in a Google doc.
+analytics in a dashboard you barely customize.
 
-total: $550-1,500/mo minimum
+your ICP, your signals, your segments live in 6 different places.
 
-and they still don't talk to each other.
+none of them share context.
 
 ---
 
@@ -120,13 +119,13 @@ then it builds your workspace.
 - open 6 browser tabs
 - copy data between tools
 - manually personalize each email
-- pay $1,500/mo for the privilege
+- no shared context between any of it
 
 **After:**
 - open terminal
 - describe the task
 - agent reads your context, writes the sequence, runs the enrichment
-- total cost: API calls
+- everything stays in sync because you built it
 
 ---
 
@@ -143,7 +142,7 @@ claude
 > help me set up
 ```
 
-MIT licensed. free forever.
+MIT licensed. yours to build on.
 
 no gatekeeping.
 

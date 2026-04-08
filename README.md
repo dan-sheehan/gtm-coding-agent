@@ -1,10 +1,10 @@
 # GTM Coding Agent Starter Kit
 
-**Build your go-to-market engine with coding agents instead of a $2K/mo tool stack.**
+**Build your go-to-market engine with coding agents, Python scripts, and structured context.**
 
 Open this repo in [Claude Code](https://claude.ai/code) and type `help me set up`. The AI walks you through building a personalized GTM workspace — ICP, positioning, outbound sequences, content, automation — all from your terminal.
 
-No SaaS. No vendor lock-in. Just structured context + coding agents + Python scripts.
+Structured context + coding agents + Python scripts. Build alongside the tools you already use.
 
 ---
 
@@ -110,6 +110,14 @@ Prefer reading to forking? The full playbook is available as a book-style web gu
 
 ---
 
+## See It In Action
+
+<video src="assets/dashboard-demo.mp4" controls width="100%"></video>
+
+*The signals dashboard running against a live Supabase database. 5 pages, dark theme, real-time polling.*
+
+---
+
 ## Quick Start
 
 ```bash
@@ -138,8 +146,8 @@ Claude reads the CLAUDE.md, asks you 6 questions about your GTM, then:
 **You should use this if:**
 - You're a founder, GTM engineer, or agency operator
 - You want to use coding agents (Claude Code, Cursor, Codex) for GTM — not just chat
-- You're tired of paying for 8 tools that don't talk to each other
-- You want a system you own, not a SaaS you rent
+- You want to understand what's happening under the hood of your GTM stack
+- You want a system you can build on, not just configure
 
 **You probably don't need this if:**
 - You have a 50-person marketing team with established tooling
@@ -152,9 +160,9 @@ Claude reads the CLAUDE.md, asks you 6 questions about your GTM, then:
 
 Most GTM tools sell you a dashboard. This gives you a workspace.
 
-The difference: a workspace is files you control, prompts you can edit, scripts you can modify, and context an AI agent can read. When your ICP, positioning, voice, and tooling all live in structured markdown files — a coding agent becomes your GTM co-pilot.
+The difference: a workspace is files you control, prompts you can edit, scripts you can modify, and context an AI agent can read. When your ICP, positioning, voice, and tooling all live in structured markdown files, a coding agent becomes your GTM co-pilot.
 
-This is not a SaaS. It's a system. You'll learn how it works, then make it yours.
+I still use HubSpot and Instantly. This is not about replacing tools. It's about understanding how things work and being able to build the pieces that don't exist yet. You'll learn how it works, then make it yours.
 
 ## This Is a Living Repo
 

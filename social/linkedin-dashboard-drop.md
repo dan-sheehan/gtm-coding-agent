@@ -2,11 +2,11 @@
 
 ---
 
-built my own GTM dashboard instead of paying for one.
+Claude Code + Supabase = GTM dashboard.
 
-open-sourcing the whole thing today.
+built this in one session. open-sourcing it today.
 
-the setup: Next.js + Supabase + a signal scoring engine I wrote in Python. 5 pages. dark theme. real-time polling. deployed to Vercel for free.
+the setup: Next.js + Supabase + a signal scoring engine in Python. 5 pages. dark theme. real-time polling.
 
 what it tracks:
 - company database with ICP scoring (0-100)
@@ -23,9 +23,13 @@ drop #1 was 10 chapters on building GTM with coding agents. context engineering,
 
 drop #2 adds the dashboard starter + a new chapter on building it. fork the repo, set up Supabase, run 3 SQL files, and you have a working dashboard in 10 minutes.
 
-the thesis: we are entering a micro SaaS era where every go-to-market engineer will be able to build production tools on the spot. the AI is getting better at building real things, not just prototypes. if you can describe what you need, you can ship it.
+the thing is, i still use HubSpot and Instantly. this is not about replacing those tools.
 
-this is not saying SaaS tools are going away. it is saying the skill of being able to build your own tools will carry you. even if you use the SaaS, understanding what is happening underneath makes you better at the job.
+i'm already building my database, writing my signal logic, designing my segments. the dashboard is just the visual layer on top of work i'm already doing. it stays in sync because i built both sides.
+
+and this is incomplete. what you see today will look different next week when i start sending actual email campaigns. that's the point. i'm sharing it as it grows because the building process is the learning.
+
+the skill of being able to build your own tools will carry you. even if you use the SaaS, understanding what's happening underneath makes you better at the job.
 
 who this is for:
 - GTM engineers who want to build, not just buy
@@ -58,5 +62,7 @@ chapter 11 + the full dashboard starter are in `starters/signals-dashboard/`. fo
 - If people ask about alternatives to Exa, point to Apollo/Clay/manual CSV
 - Pin the link comment
 - Post between 8-10am EST Tuesday or Wednesday
-- Consider adding a screenshot or short video clip of the dashboard
+- Attach the dashboard demo video (assets/dashboard-demo.mp4) -- native video gets better reach than image
+- If you can't attach video, post a screen recording natively through LinkedIn's video upload
+- The hook "Claude Code + Supabase = GTM dashboard" is the equation format that performed on drop #1
 

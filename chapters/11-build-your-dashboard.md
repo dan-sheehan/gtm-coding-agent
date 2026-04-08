@@ -6,17 +6,19 @@
 
 ## Why Build Instead of Buy
 
-The standard GTM stack charges you monthly for dashboards you barely customize. Salesforce dashboards, HubSpot reports, Clay views, Instantly analytics. Each one shows you a slice. None of them show you everything.
+I use HubSpot. I use Instantly. This is not about replacing those tools.
 
-The cost math:
+It's about the fact that I'm already building my database, writing my signal logic, designing my segments. The dashboard is just the visual layer on top of work I'm already doing. It's literally in sync with the data I'm creating. Why wouldn't I build the view alongside it?
 
-| Approach | Monthly Cost | Customization | Data Ownership |
-|----------|-------------|---------------|----------------|
-| Salesforce + HubSpot dashboards | $300-1,000/mo | Limited to what they expose | Vendor-locked |
-| BI tool (Looker, Metabase) | $100-500/mo | SQL-based, moderate | You own queries |
-| Build your own | $0-25/mo (Supabase free tier + Vercel) | Unlimited | Full ownership |
+The other reason: when you build the dashboard yourself, you understand every query, every number, every chart. When something looks off, you know which table to check. When you need a new view, you add it in 20 minutes instead of waiting on a feature request.
 
-Building your own dashboard isn't about saving money. It's about having a system that matches how you actually work. Your ICP scoring, your signal model, your campaign segments. Not someone else's abstraction of those things.
+This is not a finished product. What you see today will look different next week when I start sending email campaigns. That's the point. I'm sharing it as it grows because the building process is the learning.
+
+---
+
+## See It Running
+
+<video src="../assets/dashboard-demo.mp4" controls width="100%"></video>
 
 ---
 
@@ -29,14 +31,14 @@ Three layers. Each one is replaceable.
      (data)                  (queries)               (display)
 ```
 
-**Supabase** is the database. Free tier gives you 500MB and unlimited API requests. You run SQL to create tables, and the JavaScript client handles the rest.
+**Supabase** is the database. Postgres under the hood, JavaScript client on top. You run SQL to create tables, and the client handles the rest.
 
 **Next.js API routes** sit between your database and your frontend. Each route runs a Supabase query (or several in parallel), aggregates the results, and returns JSON. This keeps your database credentials server-side.
 
 **React pages** fetch from those API routes on a polling interval (every 15-30 seconds) and render charts, tables, and KPI cards.
 
 Why this stack:
-- **Free to start.** Supabase free tier + Vercel hobby plan = $0/mo.
+- **You already know the pieces.** If you've touched React or written a SQL query, you can build this.
 - **Type-safe throughout.** TypeScript from database query to rendered component.
 - **Deployable in minutes.** Push to GitHub, connect Vercel, add two environment variables.
 - **No vendor lock-in.** Supabase is Postgres. Next.js is open source. You can move everything.
@@ -45,7 +47,7 @@ Why this stack:
 
 ## Setting Up Supabase
 
-Create a free project at [supabase.com](https://supabase.com). Note your project URL and service role key (Settings > API).
+Create a project at [supabase.com](https://supabase.com). Note your project URL and service role key (Settings > API).
 
 The starter includes three SQL files. Run them in order in the Supabase SQL Editor:
 
@@ -301,7 +303,7 @@ You don't need all of these running to use the dashboard. Start with the seed da
 ## Key Takeaways
 
 - **A dashboard is just queries + charts.** If you can write a SQL query and a React component, you can build a dashboard. The starter gives you the patterns.
-- **Supabase + Next.js + Vercel = $0/mo to start.** No infrastructure to manage. Deploy in minutes.
+- **Build it alongside your database.** If you're already creating your data and writing your logic, the dashboard is just the visual layer on top. It stays in sync because you built both.
 - **Signal scoring is the brain.** The exponential decay formula, signal weights, and diversity bonuses turn raw data into actionable intelligence. Tune the weights for your market.
 - **The 3-contact-per-company constraint is a feature.** It forces quality over quantity in your outreach.
 - **Polling beats WebSockets for dashboards.** A 15-second refresh is fine for operational data. Simpler to build, debug, and deploy.

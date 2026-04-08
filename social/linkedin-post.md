@@ -2,7 +2,7 @@
 
 ---
 
-replaced $2K/mo of GTM tools with a coding agent and Python scripts.
+built a GTM operating system with a coding agent and Python scripts.
 
 open-sourcing the whole system today.
 
@@ -16,10 +16,7 @@ need an outbound sequence? it reads your ICP and attack angles first.
 need content? it loads your voice profile so it sounds like you.
 need to enrich a list? it runs a Python script with your enrichment APIs.
 
-the cost math:
-
-before: HubSpot + Apollo + Clay + Instantly + content tools = $2K+/mo
-after: API calls + Claude Code subscription = ~$200/mo
+i still use HubSpot and Instantly. this is not about replacing tools. it's about understanding what's happening underneath and being able to build the pieces that don't exist yet.
 
 the starter kit includes:
 - interactive onboarding (open it in Claude Code, say "help me set up")
@@ -30,7 +27,7 @@ the starter kit includes:
 
 this isn't a product. it's a learning system.
 
-you'll understand how context engineering works. how to connect tools via API. how to automate your pipeline with 40-line Python scripts instead of $200/mo SaaS tools.
+you'll understand how context engineering works. how to connect tools via API. how to automate your pipeline with 40-line Python scripts.
 
 who it's for:
 - founders doing their own GTM

@@ -10,7 +10,7 @@ A real-time go-to-market dashboard built with Next.js, Supabase, and Recharts. T
 
 ### 1. Set Up Supabase
 
-Create a free project at [supabase.com](https://supabase.com). Then run the schema files in order via the SQL Editor:
+Create a project at [supabase.com](https://supabase.com). Then run the schema files in order via the SQL Editor:
 
 ```sql
 -- Run these in the Supabase SQL Editor, in order:
